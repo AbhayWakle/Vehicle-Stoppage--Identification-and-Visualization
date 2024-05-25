@@ -1,0 +1,35 @@
+/* styles.css */
+.map-container {
+    height: 80vh; /* Adjust the height as needed */
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid #007bff; /* Add a border to the map */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a polished look */
+  }
+  
+  /* Button hover effect */
+  .button {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Darker shade of primary color */
+  }
+  
+  /* Responsive layout */
+  @media (max-width: 768px) {
+    .map-container {
+      height: 60vh;
+    }
+  
+    .app-title h1 {
+      font-size: 1.5em;
+    }
+  }
+  

@@ -1,0 +1,13 @@
+/* Title.css */
+.app-title {
+    text-align: center;
+    margin: 20px 0;
+    color: #007bff; /* Primary color */
+  }
+  
+  .app-title h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+  }
+  
